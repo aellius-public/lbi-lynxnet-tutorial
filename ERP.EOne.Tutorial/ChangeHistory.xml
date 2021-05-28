@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ChangeHistory>
+  
+  <!-- Use this file to document changes to your business processes. Add WorkItem elements as shown below -->
+  <WorkItem Id="100" Date="2014-01-01" Description="Change Description" BusinessProcess="ERP.EOne.Process1, ERP.EOne.Process2" />
+  
+</ChangeHistory>

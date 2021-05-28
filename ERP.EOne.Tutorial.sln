@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.EOne.Tutorial", "ERP.EOne.Tutorial\ERP.EOne.Tutorial.csproj", "{B483B645-9368-4EA1-91C8-03A477BB76AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Info", "Info", "{C1C1351B-46AC-4927-9A2D-34C6D59D8452}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B483B645-9368-4EA1-91C8-03A477BB76AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B483B645-9368-4EA1-91C8-03A477BB76AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B483B645-9368-4EA1-91C8-03A477BB76AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B483B645-9368-4EA1-91C8-03A477BB76AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1DE6C2C-CBF9-41E6-8977-443C85A100A3}
+	EndGlobalSection
+EndGlobal

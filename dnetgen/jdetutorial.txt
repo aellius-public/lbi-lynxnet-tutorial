@@ -1,0 +1,7 @@
+:: set dnetgen_dir to this folder before running it
+:: run dnetgen from the LynX.Net installation folder as admin
+:: make sure that you are logged in to JDE WebDev client, 
+:: otherwise, you will be prompted to login
+
+dnetgen /outdir: %dir4% /lib: JdeTutorial /objects: F0101,B0100021
+

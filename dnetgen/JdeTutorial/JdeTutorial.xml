@@ -1,0 +1,1561 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JdeTutorial</name>
+    </assembly>
+    <members>
+        <member name="T:Aellius.Sandhi.LynX.F0101">
+            <summary>
+            Table: F0101; Description: Address Book Master.
+            </summary>
+        </member>
+        <member name="T:Aellius.Sandhi.LynX.F0101.Column">
+            <summary>
+            Represents the columns in this table.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.AddressNumber">
+            <summary>
+            Represents Sql Column: ABAN8 of this table.
+            Data Type: numeric.
+            Length: 8.
+            Decimals: 0.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.AlternateAddressKey">
+            <summary>
+            Represents Sql Column: ABALKY of this table.
+            Data Type: string.
+            Length: 20.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.TaxId">
+            <summary>
+            Represents Sql Column: ABTAX of this table.
+            Data Type: string.
+            Length: 20.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.NameAlpha">
+            <summary>
+            Represents Sql Column: ABALPH of this table.
+            Data Type: string.
+            Length: 40.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.DescripCompressed">
+            <summary>
+            Represents Sql Column: ABDC of this table.
+            Data Type: string.
+            Length: 40.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.CostCenter">
+            <summary>
+            Represents Sql Column: ABMCU of this table.
+            Data Type: string.
+            Length: 12.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.StandardIndustryCode">
+            <summary>
+            Represents Sql Column: ABSIC of this table.
+            Data Type: string.
+            Length: 10.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.LanguagePreference">
+            <summary>
+            Represents Sql Column: ABLNGP of this table.
+            Data Type: string.
+            Length: 2.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.AddressType1">
+            <summary>
+            Represents Sql Column: ABAT1 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.CreditMessage">
+            <summary>
+            Represents Sql Column: ABCM of this table.
+            Data Type: string.
+            Length: 2.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.PersonCorporationCode">
+            <summary>
+            Represents Sql Column: ABTAXC of this table.
+            Data Type: character.
+            Length: 1.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.AddressType2">
+            <summary>
+            Represents Sql Column: ABAT2 of this table.
+            Data Type: character.
+            Length: 1.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.AddressType3">
+            <summary>
+            Represents Sql Column: ABAT3 of this table.
+            Data Type: character.
+            Length: 1.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.AddressType4">
+            <summary>
+            Represents Sql Column: ABAT4 of this table.
+            Data Type: character.
+            Length: 1.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.AddressType5">
+            <summary>
+            Represents Sql Column: ABAT5 of this table.
+            Data Type: character.
+            Length: 1.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.AddressTypePayables">
+            <summary>
+            Represents Sql Column: ABATP of this table.
+            Data Type: character.
+            Length: 1.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.AddressTypeReceivables">
+            <summary>
+            Represents Sql Column: ABATR of this table.
+            Data Type: character.
+            Length: 1.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.AddTypeCode4Purch">
+            <summary>
+            Represents Sql Column: ABATPR of this table.
+            Data Type: character.
+            Length: 1.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.MiscCode3">
+            <summary>
+            Represents Sql Column: ABAB3 of this table.
+            Data Type: character.
+            Length: 1.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.AddressTypeEmployee">
+            <summary>
+            Represents Sql Column: ABATE of this table.
+            Data Type: character.
+            Length: 1.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.SubledgerInactiveCode">
+            <summary>
+            Represents Sql Column: ABSBLI of this table.
+            Data Type: character.
+            Length: 1.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.DateBeginningEffective">
+            <summary>
+            Represents Sql Column: ABEFTB of this table.
+            Data Type: date.
+            Length: 6.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.AddressNumber1st">
+            <summary>
+            Represents Sql Column: ABAN81 of this table.
+            Data Type: numeric.
+            Length: 8.
+            Decimals: 0.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.AddressNumber2nd">
+            <summary>
+            Represents Sql Column: ABAN82 of this table.
+            Data Type: numeric.
+            Length: 8.
+            Decimals: 0.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.AddressNumber3rd">
+            <summary>
+            Represents Sql Column: ABAN83 of this table.
+            Data Type: numeric.
+            Length: 8.
+            Decimals: 0.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.AddressNumber4th">
+            <summary>
+            Represents Sql Column: ABAN84 of this table.
+            Data Type: numeric.
+            Length: 8.
+            Decimals: 0.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.AddressNumber6th">
+            <summary>
+            Represents Sql Column: ABAN86 of this table.
+            Data Type: numeric.
+            Length: 8.
+            Decimals: 0.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.AddressNumber5th">
+            <summary>
+            Represents Sql Column: ABAN85 of this table.
+            Data Type: numeric.
+            Length: 8.
+            Decimals: 0.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.ReportCodeAddBook001">
+            <summary>
+            Represents Sql Column: ABAC01 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.ReportCodeAddBook002">
+            <summary>
+            Represents Sql Column: ABAC02 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.ReportCodeAddBook003">
+            <summary>
+            Represents Sql Column: ABAC03 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.ReportCodeAddBook004">
+            <summary>
+            Represents Sql Column: ABAC04 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.ReportCodeAddBook005">
+            <summary>
+            Represents Sql Column: ABAC05 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.ReportCodeAddBook006">
+            <summary>
+            Represents Sql Column: ABAC06 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.ReportCodeAddBook007">
+            <summary>
+            Represents Sql Column: ABAC07 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.ReportCodeAddBook008">
+            <summary>
+            Represents Sql Column: ABAC08 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.ReportCodeAddBook009">
+            <summary>
+            Represents Sql Column: ABAC09 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.ReportCodeAddBook010">
+            <summary>
+            Represents Sql Column: ABAC10 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.ReportCodeAddBook011">
+            <summary>
+            Represents Sql Column: ABAC11 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.ReportCodeAddBook012">
+            <summary>
+            Represents Sql Column: ABAC12 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.ReportCodeAddBook013">
+            <summary>
+            Represents Sql Column: ABAC13 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.ReportCodeAddBook014">
+            <summary>
+            Represents Sql Column: ABAC14 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.ReportCodeAddBook015">
+            <summary>
+            Represents Sql Column: ABAC15 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.ReportCodeAddBook016">
+            <summary>
+            Represents Sql Column: ABAC16 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.ReportCodeAddBook017">
+            <summary>
+            Represents Sql Column: ABAC17 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.ReportCodeAddBook018">
+            <summary>
+            Represents Sql Column: ABAC18 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.ReportCodeAddBook019">
+            <summary>
+            Represents Sql Column: ABAC19 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.ReportCodeAddBook020">
+            <summary>
+            Represents Sql Column: ABAC20 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.CategoryCodeAddressBook2">
+            <summary>
+            Represents Sql Column: ABAC21 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.CategoryCodeAddressBk22">
+            <summary>
+            Represents Sql Column: ABAC22 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.CategoryCodeAddressBk23">
+            <summary>
+            Represents Sql Column: ABAC23 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.CategoryCodeAddressBk24">
+            <summary>
+            Represents Sql Column: ABAC24 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.CategoryCodeAddressBk25">
+            <summary>
+            Represents Sql Column: ABAC25 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.CategoryCodeAddressBk26">
+            <summary>
+            Represents Sql Column: ABAC26 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.CategoryCodeAddressBk27">
+            <summary>
+            Represents Sql Column: ABAC27 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.CategoryCodeAddressBk28">
+            <summary>
+            Represents Sql Column: ABAC28 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.CategoryCodeAddressBk29">
+            <summary>
+            Represents Sql Column: ABAC29 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.CategoryCodeAddressBk30">
+            <summary>
+            Represents Sql Column: ABAC30 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.GlBankAccount">
+            <summary>
+            Represents Sql Column: ABGLBA of this table.
+            Data Type: string.
+            Length: 8.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.TimeScheduledIn">
+            <summary>
+            Represents Sql Column: ABPTI of this table.
+            Data Type: numeric.
+            Length: 6.
+            Decimals: 0.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.DateScheduledIn">
+            <summary>
+            Represents Sql Column: ABPDI of this table.
+            Data Type: date.
+            Length: 6.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.ActionMessageControl">
+            <summary>
+            Represents Sql Column: ABMSGA of this table.
+            Data Type: character.
+            Length: 1.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.NameRemark">
+            <summary>
+            Represents Sql Column: ABRMK of this table.
+            Data Type: string.
+            Length: 30.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.CertificateTaxExempt">
+            <summary>
+            Represents Sql Column: ABTXCT of this table.
+            Data Type: string.
+            Length: 20.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.TaxId2">
+            <summary>
+            Represents Sql Column: ABTX2 of this table.
+            Data Type: string.
+            Length: 20.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.Kanjialpha">
+            <summary>
+            Represents Sql Column: ABALP1 of this table.
+            Data Type: string.
+            Length: 40.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.UserReservedCode">
+            <summary>
+            Represents Sql Column: ABURCD of this table.
+            Data Type: string.
+            Length: 2.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.UserReservedDate">
+            <summary>
+            Represents Sql Column: ABURDT of this table.
+            Data Type: date.
+            Length: 6.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.UserReservedAmount">
+            <summary>
+            Represents Sql Column: ABURAT of this table.
+            Data Type: numeric.
+            Length: 15.
+            Decimals: 2.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.UserReservedNumber">
+            <summary>
+            Represents Sql Column: ABURAB of this table.
+            Data Type: numeric.
+            Length: 8.
+            Decimals: 0.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.UserReservedReference">
+            <summary>
+            Represents Sql Column: ABURRF of this table.
+            Data Type: string.
+            Length: 15.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.UserId">
+            <summary>
+            Represents Sql Column: ABUSER of this table.
+            Data Type: string.
+            Length: 10.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.ProgramId">
+            <summary>
+            Represents Sql Column: ABPID of this table.
+            Data Type: string.
+            Length: 10.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.DateUpdated">
+            <summary>
+            Represents Sql Column: ABUPMJ of this table.
+            Data Type: date.
+            Length: 6.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.WorkStationId">
+            <summary>
+            Represents Sql Column: ABJOBN of this table.
+            Data Type: string.
+            Length: 10.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.TimeLastUpdated">
+            <summary>
+            Represents Sql Column: ABUPMT of this table.
+            Data Type: numeric.
+            Length: 6.
+            Decimals: 0.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.PurgeFlag">
+            <summary>
+            Represents Sql Column: ABPRGF of this table.
+            Data Type: character.
+            Length: 1.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.ShortcutClientType">
+            <summary>
+            Represents Sql Column: ABSCCLTP of this table.
+            Data Type: string.
+            Length: 2.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.Ticker">
+            <summary>
+            Represents Sql Column: ABTICKER of this table.
+            Data Type: string.
+            Length: 10.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.StockExchange">
+            <summary>
+            Represents Sql Column: ABEXCHG of this table.
+            Data Type: string.
+            Length: 10.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.DUNSNumber">
+            <summary>
+            Represents Sql Column: ABDUNS of this table.
+            Data Type: string.
+            Length: 13.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.ClassificationCode01">
+            <summary>
+            Represents Sql Column: ABCLASS01 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.ClassificationCode02">
+            <summary>
+            Represents Sql Column: ABCLASS02 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.ClassificationCode03">
+            <summary>
+            Represents Sql Column: ABCLASS03 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.ClassificationCode04">
+            <summary>
+            Represents Sql Column: ABCLASS04 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.ClassificationCode05">
+            <summary>
+            Represents Sql Column: ABCLASS05 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.NumberOfEmployee">
+            <summary>
+            Represents Sql Column: ABNOE of this table.
+            Data Type: numeric.
+            Length: 15.
+            Decimals: 0.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.GrowthRate">
+            <summary>
+            Represents Sql Column: ABGROWTHR of this table.
+            Data Type: numeric.
+            Length: 8.
+            Decimals: 0.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.YearStarted">
+            <summary>
+            Represents Sql Column: ABYEARSTAR of this table.
+            Data Type: string.
+            Length: 15.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.EmployeeGroupApprovals">
+            <summary>
+            Represents Sql Column: ABAEMPGP of this table.
+            Data Type: string.
+            Length: 5.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.IndicatorFlg">
+            <summary>
+            Represents Sql Column: ABACTIN of this table.
+            Data Type: character.
+            Length: 1.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.RevenueRange">
+            <summary>
+            Represents Sql Column: ABREVRNG of this table.
+            Data Type: string.
+            Length: 5.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.SynchronizationStatus">
+            <summary>
+            Represents Sql Column: ABSYNCS of this table.
+            Data Type: numeric.
+            Length: 2.
+            Decimals: 0.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.PreviousErrorStatus">
+            <summary>
+            Represents Sql Column: ABPERRS of this table.
+            Data Type: numeric.
+            Length: 2.
+            Decimals: 0.
+            </summary>
+        </member>
+        <member name="F:Aellius.Sandhi.LynX.F0101.Column.ServerStatus">
+            <summary>
+            Represents Sql Column: ABCAAD of this table.
+            Data Type: numeric.
+            Length: 2.
+            Decimals: 0.
+            </summary>
+        </member>
+        <member name="M:Aellius.Sandhi.LynX.F0101.#ctor">
+            <summary>
+            Creates an instance of this table.
+            </summary>
+        </member>
+        <member name="M:Aellius.Sandhi.LynX.F0101.#ctor(Aellius.Sandhi.LynX.Transaction)">
+            <summary>
+            Creates an instance of this table with the specified transaction.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcAddressNumber">
+            <summary>
+            Represents Sql Column: ABAN8 of this table.
+            Data Type: numeric.
+            Length: 8.
+            Decimals: 0.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcAlternateAddressKey">
+            <summary>
+            Represents Sql Column: ABALKY of this table.
+            Data Type: string.
+            Length: 20.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcTaxId">
+            <summary>
+            Represents Sql Column: ABTAX of this table.
+            Data Type: string.
+            Length: 20.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcNameAlpha">
+            <summary>
+            Represents Sql Column: ABALPH of this table.
+            Data Type: string.
+            Length: 40.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcDescripCompressed">
+            <summary>
+            Represents Sql Column: ABDC of this table.
+            Data Type: string.
+            Length: 40.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcCostCenter">
+            <summary>
+            Represents Sql Column: ABMCU of this table.
+            Data Type: string.
+            Length: 12.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcStandardIndustryCode">
+            <summary>
+            Represents Sql Column: ABSIC of this table.
+            Data Type: string.
+            Length: 10.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcLanguagePreference">
+            <summary>
+            Represents Sql Column: ABLNGP of this table.
+            Data Type: string.
+            Length: 2.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcAddressType1">
+            <summary>
+            Represents Sql Column: ABAT1 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcCreditMessage">
+            <summary>
+            Represents Sql Column: ABCM of this table.
+            Data Type: string.
+            Length: 2.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcPersonCorporationCode">
+            <summary>
+            Represents Sql Column: ABTAXC of this table.
+            Data Type: character.
+            Length: 1.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcAddressType2">
+            <summary>
+            Represents Sql Column: ABAT2 of this table.
+            Data Type: character.
+            Length: 1.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcAddressType3">
+            <summary>
+            Represents Sql Column: ABAT3 of this table.
+            Data Type: character.
+            Length: 1.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcAddressType4">
+            <summary>
+            Represents Sql Column: ABAT4 of this table.
+            Data Type: character.
+            Length: 1.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcAddressType5">
+            <summary>
+            Represents Sql Column: ABAT5 of this table.
+            Data Type: character.
+            Length: 1.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcAddressTypePayables">
+            <summary>
+            Represents Sql Column: ABATP of this table.
+            Data Type: character.
+            Length: 1.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcAddressTypeReceivables">
+            <summary>
+            Represents Sql Column: ABATR of this table.
+            Data Type: character.
+            Length: 1.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcAddTypeCode4Purch">
+            <summary>
+            Represents Sql Column: ABATPR of this table.
+            Data Type: character.
+            Length: 1.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcMiscCode3">
+            <summary>
+            Represents Sql Column: ABAB3 of this table.
+            Data Type: character.
+            Length: 1.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcAddressTypeEmployee">
+            <summary>
+            Represents Sql Column: ABATE of this table.
+            Data Type: character.
+            Length: 1.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcSubledgerInactiveCode">
+            <summary>
+            Represents Sql Column: ABSBLI of this table.
+            Data Type: character.
+            Length: 1.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcDateBeginningEffective">
+            <summary>
+            Represents Sql Column: ABEFTB of this table.
+            Data Type: date.
+            Length: 6.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcAddressNumber1st">
+            <summary>
+            Represents Sql Column: ABAN81 of this table.
+            Data Type: numeric.
+            Length: 8.
+            Decimals: 0.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcAddressNumber2nd">
+            <summary>
+            Represents Sql Column: ABAN82 of this table.
+            Data Type: numeric.
+            Length: 8.
+            Decimals: 0.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcAddressNumber3rd">
+            <summary>
+            Represents Sql Column: ABAN83 of this table.
+            Data Type: numeric.
+            Length: 8.
+            Decimals: 0.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcAddressNumber4th">
+            <summary>
+            Represents Sql Column: ABAN84 of this table.
+            Data Type: numeric.
+            Length: 8.
+            Decimals: 0.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcAddressNumber6th">
+            <summary>
+            Represents Sql Column: ABAN86 of this table.
+            Data Type: numeric.
+            Length: 8.
+            Decimals: 0.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcAddressNumber5th">
+            <summary>
+            Represents Sql Column: ABAN85 of this table.
+            Data Type: numeric.
+            Length: 8.
+            Decimals: 0.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcReportCodeAddBook001">
+            <summary>
+            Represents Sql Column: ABAC01 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcReportCodeAddBook002">
+            <summary>
+            Represents Sql Column: ABAC02 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcReportCodeAddBook003">
+            <summary>
+            Represents Sql Column: ABAC03 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcReportCodeAddBook004">
+            <summary>
+            Represents Sql Column: ABAC04 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcReportCodeAddBook005">
+            <summary>
+            Represents Sql Column: ABAC05 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcReportCodeAddBook006">
+            <summary>
+            Represents Sql Column: ABAC06 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcReportCodeAddBook007">
+            <summary>
+            Represents Sql Column: ABAC07 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcReportCodeAddBook008">
+            <summary>
+            Represents Sql Column: ABAC08 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcReportCodeAddBook009">
+            <summary>
+            Represents Sql Column: ABAC09 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcReportCodeAddBook010">
+            <summary>
+            Represents Sql Column: ABAC10 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcReportCodeAddBook011">
+            <summary>
+            Represents Sql Column: ABAC11 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcReportCodeAddBook012">
+            <summary>
+            Represents Sql Column: ABAC12 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcReportCodeAddBook013">
+            <summary>
+            Represents Sql Column: ABAC13 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcReportCodeAddBook014">
+            <summary>
+            Represents Sql Column: ABAC14 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcReportCodeAddBook015">
+            <summary>
+            Represents Sql Column: ABAC15 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcReportCodeAddBook016">
+            <summary>
+            Represents Sql Column: ABAC16 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcReportCodeAddBook017">
+            <summary>
+            Represents Sql Column: ABAC17 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcReportCodeAddBook018">
+            <summary>
+            Represents Sql Column: ABAC18 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcReportCodeAddBook019">
+            <summary>
+            Represents Sql Column: ABAC19 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcReportCodeAddBook020">
+            <summary>
+            Represents Sql Column: ABAC20 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcCategoryCodeAddressBook2">
+            <summary>
+            Represents Sql Column: ABAC21 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcCategoryCodeAddressBk22">
+            <summary>
+            Represents Sql Column: ABAC22 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcCategoryCodeAddressBk23">
+            <summary>
+            Represents Sql Column: ABAC23 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcCategoryCodeAddressBk24">
+            <summary>
+            Represents Sql Column: ABAC24 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcCategoryCodeAddressBk25">
+            <summary>
+            Represents Sql Column: ABAC25 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcCategoryCodeAddressBk26">
+            <summary>
+            Represents Sql Column: ABAC26 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcCategoryCodeAddressBk27">
+            <summary>
+            Represents Sql Column: ABAC27 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcCategoryCodeAddressBk28">
+            <summary>
+            Represents Sql Column: ABAC28 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcCategoryCodeAddressBk29">
+            <summary>
+            Represents Sql Column: ABAC29 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcCategoryCodeAddressBk30">
+            <summary>
+            Represents Sql Column: ABAC30 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcGlBankAccount">
+            <summary>
+            Represents Sql Column: ABGLBA of this table.
+            Data Type: string.
+            Length: 8.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcTimeScheduledIn">
+            <summary>
+            Represents Sql Column: ABPTI of this table.
+            Data Type: numeric.
+            Length: 6.
+            Decimals: 0.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcDateScheduledIn">
+            <summary>
+            Represents Sql Column: ABPDI of this table.
+            Data Type: date.
+            Length: 6.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcActionMessageControl">
+            <summary>
+            Represents Sql Column: ABMSGA of this table.
+            Data Type: character.
+            Length: 1.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcNameRemark">
+            <summary>
+            Represents Sql Column: ABRMK of this table.
+            Data Type: string.
+            Length: 30.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcCertificateTaxExempt">
+            <summary>
+            Represents Sql Column: ABTXCT of this table.
+            Data Type: string.
+            Length: 20.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcTaxId2">
+            <summary>
+            Represents Sql Column: ABTX2 of this table.
+            Data Type: string.
+            Length: 20.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcKanjialpha">
+            <summary>
+            Represents Sql Column: ABALP1 of this table.
+            Data Type: string.
+            Length: 40.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcUserReservedCode">
+            <summary>
+            Represents Sql Column: ABURCD of this table.
+            Data Type: string.
+            Length: 2.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcUserReservedDate">
+            <summary>
+            Represents Sql Column: ABURDT of this table.
+            Data Type: date.
+            Length: 6.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcUserReservedAmount">
+            <summary>
+            Represents Sql Column: ABURAT of this table.
+            Data Type: numeric.
+            Length: 15.
+            Decimals: 2.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcUserReservedNumber">
+            <summary>
+            Represents Sql Column: ABURAB of this table.
+            Data Type: numeric.
+            Length: 8.
+            Decimals: 0.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcUserReservedReference">
+            <summary>
+            Represents Sql Column: ABURRF of this table.
+            Data Type: string.
+            Length: 15.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcUserId">
+            <summary>
+            Represents Sql Column: ABUSER of this table.
+            Data Type: string.
+            Length: 10.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcProgramId">
+            <summary>
+            Represents Sql Column: ABPID of this table.
+            Data Type: string.
+            Length: 10.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcDateUpdated">
+            <summary>
+            Represents Sql Column: ABUPMJ of this table.
+            Data Type: date.
+            Length: 6.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcWorkStationId">
+            <summary>
+            Represents Sql Column: ABJOBN of this table.
+            Data Type: string.
+            Length: 10.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcTimeLastUpdated">
+            <summary>
+            Represents Sql Column: ABUPMT of this table.
+            Data Type: numeric.
+            Length: 6.
+            Decimals: 0.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcPurgeFlag">
+            <summary>
+            Represents Sql Column: ABPRGF of this table.
+            Data Type: character.
+            Length: 1.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcShortcutClientType">
+            <summary>
+            Represents Sql Column: ABSCCLTP of this table.
+            Data Type: string.
+            Length: 2.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcTicker">
+            <summary>
+            Represents Sql Column: ABTICKER of this table.
+            Data Type: string.
+            Length: 10.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcStockExchange">
+            <summary>
+            Represents Sql Column: ABEXCHG of this table.
+            Data Type: string.
+            Length: 10.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcDUNSNumber">
+            <summary>
+            Represents Sql Column: ABDUNS of this table.
+            Data Type: string.
+            Length: 13.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcClassificationCode01">
+            <summary>
+            Represents Sql Column: ABCLASS01 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcClassificationCode02">
+            <summary>
+            Represents Sql Column: ABCLASS02 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcClassificationCode03">
+            <summary>
+            Represents Sql Column: ABCLASS03 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcClassificationCode04">
+            <summary>
+            Represents Sql Column: ABCLASS04 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcClassificationCode05">
+            <summary>
+            Represents Sql Column: ABCLASS05 of this table.
+            Data Type: string.
+            Length: 3.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcNumberOfEmployee">
+            <summary>
+            Represents Sql Column: ABNOE of this table.
+            Data Type: numeric.
+            Length: 15.
+            Decimals: 0.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcGrowthRate">
+            <summary>
+            Represents Sql Column: ABGROWTHR of this table.
+            Data Type: numeric.
+            Length: 8.
+            Decimals: 0.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcYearStarted">
+            <summary>
+            Represents Sql Column: ABYEARSTAR of this table.
+            Data Type: string.
+            Length: 15.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcEmployeeGroupApprovals">
+            <summary>
+            Represents Sql Column: ABAEMPGP of this table.
+            Data Type: string.
+            Length: 5.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcIndicatorFlg">
+            <summary>
+            Represents Sql Column: ABACTIN of this table.
+            Data Type: character.
+            Length: 1.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcRevenueRange">
+            <summary>
+            Represents Sql Column: ABREVRNG of this table.
+            Data Type: string.
+            Length: 5.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcSynchronizationStatus">
+            <summary>
+            Represents Sql Column: ABSYNCS of this table.
+            Data Type: numeric.
+            Length: 2.
+            Decimals: 0.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcPreviousErrorStatus">
+            <summary>
+            Represents Sql Column: ABPERRS of this table.
+            Data Type: numeric.
+            Length: 2.
+            Decimals: 0.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.F0101.TcServerStatus">
+            <summary>
+            Represents Sql Column: ABCAAD of this table.
+            Data Type: numeric.
+            Length: 2.
+            Decimals: 0.
+            </summary>
+        </member>
+        <member name="M:Aellius.Sandhi.LynX.F0101.AddCriteria(Aellius.Sandhi.LynX.Parenthesis,Aellius.Sandhi.LynX.Conjunction,Aellius.Sandhi.LynX.F0101.Column,Aellius.Sandhi.LynX.SingleValueOperator,System.Object)">
+            <summary>
+            Add a new literal search condition to the table for these operators:
+             =, &lt;, &lt;=, &gt;, &gt;=, LIKE, &lt;&gt;
+            </summary>
+        </member>
+        <member name="M:Aellius.Sandhi.LynX.F0101.AddCriteria(Aellius.Sandhi.LynX.Parenthesis,Aellius.Sandhi.LynX.Conjunction,Aellius.Sandhi.LynX.F0101.Column,Aellius.Sandhi.LynX.SingleValueOperator,Aellius.Sandhi.LynX.F0101.Column)">
+            <summary>
+            Add a new column based search condition to the table for these operators:
+             =, &lt;, &lt;=, &gt;, &gt;=, LIKE, &lt;&gt;
+            </summary>
+        </member>
+        <member name="M:Aellius.Sandhi.LynX.F0101.AddCriteria(Aellius.Sandhi.LynX.Parenthesis,Aellius.Sandhi.LynX.Conjunction,Aellius.Sandhi.LynX.F0101.Column,Aellius.Sandhi.LynX.DoubleValueOperator,System.Object,System.Object)">
+            <summary>
+            Add a new literal search condition to the view for these operators:
+             BETWEEN, NOT BETWEEN
+            </summary>
+        </member>
+        <member name="M:Aellius.Sandhi.LynX.F0101.AddCriteria(Aellius.Sandhi.LynX.Parenthesis,Aellius.Sandhi.LynX.Conjunction,Aellius.Sandhi.LynX.F0101.Column,Aellius.Sandhi.LynX.MultiValueOperator,System.Object[])">
+            <summary>
+            Add a new literal search condition to the view for these operators:
+             IN, NOT IN
+            </summary>
+        </member>
+        <member name="M:Aellius.Sandhi.LynX.F0101.AddSort(Aellius.Sandhi.LynX.F0101.Column,Aellius.Sandhi.LynX.SortDirection)">
+            <summary>
+            Setup a column to be sorted in the result set.
+            </summary>
+        </member>
+        <member name="T:Aellius.Sandhi.LynX.FormattedAddress">
+            <summary>
+            Business function Module: B0100021; Library: CFIN; Description: F0116 Get Mailing Address Format.
+            </summary>
+        </member>
+        <member name="M:Aellius.Sandhi.LynX.FormattedAddress.#ctor">
+            <summary>
+            Creates an instance of this business function
+            </summary>
+        </member>
+        <member name="M:Aellius.Sandhi.LynX.FormattedAddress.#ctor(Aellius.Sandhi.LynX.Transaction)">
+            <summary>
+            Creates an instance of this business function with the specified transaction.
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.FormattedAddress.DpszNameMailing">
+            <summary>
+            Represents parameter: szNameMailing.
+            Alias: MLNM.
+            Data Type: string.
+            Length: 40.
+            Required: No. Direction: None (Unknown).
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.FormattedAddress.DpszAddressLine1">
+            <summary>
+            Represents parameter: szAddressLine1.
+            Alias: ADD1.
+            Data Type: string.
+            Length: 40.
+            Required: No. Direction: None (Unknown).
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.FormattedAddress.DpszAddressLine2">
+            <summary>
+            Represents parameter: szAddressLine2.
+            Alias: ADD2.
+            Data Type: string.
+            Length: 40.
+            Required: No. Direction: None (Unknown).
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.FormattedAddress.DpszAddressLine3">
+            <summary>
+            Represents parameter: szAddressLine3.
+            Alias: ADD3.
+            Data Type: string.
+            Length: 40.
+            Required: No. Direction: None (Unknown).
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.FormattedAddress.DpszAddressLine4">
+            <summary>
+            Represents parameter: szAddressLine4.
+            Alias: ADD4.
+            Data Type: string.
+            Length: 40.
+            Required: No. Direction: None (Unknown).
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.FormattedAddress.DpszAddressLine5">
+            <summary>
+            Represents parameter: szAddressLine5.
+            Alias: ADD5.
+            Data Type: string.
+            Length: 40.
+            Required: No. Direction: None (Unknown).
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.FormattedAddress.DpszAddressLine6">
+            <summary>
+            Represents parameter: szAddressLine6.
+            Alias: ADD6.
+            Data Type: string.
+            Length: 40.
+            Required: No. Direction: None (Unknown).
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.FormattedAddress.DpszAddressLine7">
+            <summary>
+            Represents parameter: szAddressLine7.
+            Alias: ADD7.
+            Data Type: string.
+            Length: 40.
+            Required: No. Direction: None (Unknown).
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.FormattedAddress.DpmnAddressNumber">
+            <summary>
+            Represents parameter: mnAddressNumber.
+            Alias: AN8.
+            Data Type: numeric.
+            Length: 8.
+            Decimals: 0.
+            Required: No. Direction: None (Unknown).
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.FormattedAddress.DpszCity">
+            <summary>
+            Represents parameter: szCity.
+            Alias: CTY1.
+            Data Type: string.
+            Length: 25.
+            Required: No. Direction: None (Unknown).
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.FormattedAddress.DpszState">
+            <summary>
+            Represents parameter: szState.
+            Alias: ADDS.
+            Data Type: string.
+            Length: 3.
+            Required: No. Direction: None (Unknown).
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.FormattedAddress.DpszZipCodePostal">
+            <summary>
+            Represents parameter: szZipCodePostal.
+            Alias: ADDZ.
+            Data Type: string.
+            Length: 12.
+            Required: No. Direction: None (Unknown).
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.FormattedAddress.DpszCountry">
+            <summary>
+            Represents parameter: szCountry.
+            Alias: CTR.
+            Data Type: string.
+            Length: 3.
+            Required: No. Direction: None (Unknown).
+            </summary>
+        </member>
+        <member name="P:Aellius.Sandhi.LynX.FormattedAddress.DpszCountyAddress">
+            <summary>
+            Represents parameter: szCountyAddress.
+            Alias: COUN.
+            Data Type: string.
+            Length: 25.
+            Required: No. Direction: None (Unknown).
+            </summary>
+        </member>
+    </members>
+</doc>
